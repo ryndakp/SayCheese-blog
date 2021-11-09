@@ -5,8 +5,7 @@
 ## Specyfikacja projektu
 ### Cel projektu : Celem projektu jest utworzenie strony internetowej o fotografii.
 ## Interfejs serwisu:
-![image](https://user-images.githubusercontent.com/63348363/140929820-1da94c36-a00b-4a48-aa74-53e55ffd7f13.png)
-
+file:///C:/Users/rynda/Downloads/screencapture-file-D-Studia-III-SEMESTR-Technologie-Internetowe-Cwiczenia-SayCheese-blog-index-html-2021-11-09-14_08_15.png
 ## Wykorzystane technologie
 	Do uwtorzenia strony zostały wykorzystane technologie :
 	- HTML 5 
