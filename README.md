@@ -4,8 +4,8 @@
 ## Skład grupy: Patrycja Ryndak
 ## Specyfikacja projektu
 ### Cel projektu : Celem projektu jest utworzenie strony internetowej o fotografii.
-## Interfejs serwisu:
-file:///C:/Users/rynda/Downloads/screencapture-file-D-Studia-III-SEMESTR-Technologie-Internetowe-Cwiczenia-SayCheese-blog-index-html-2021-11-09-14_08_15.png
+![image](https://user-images.githubusercontent.com/63348363/140930110-d8b50b8a-ed90-4326-ad95-f85fe88e8e1f.png)
+
 ## Wykorzystane technologie
 	Do uwtorzenia strony zostały wykorzystane technologie :
 	- HTML 5 
