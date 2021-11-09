@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title> Say Cheese</title>
+<meta charset = "utf-8">
+<link rel="shortcut icon" href="images/cheese.png">
+<meta name = "author" content = "Ryndak Patrycja">
+<meta name="description" content= "Strona dla fanów robienia zdjęć i zajmowania się grafiką. Lubisz pstrykać zdjęcia? Zapraszamy!">
+<meta name="keywords" content="zdjęcia, fotografowanie, aparat, photoblog, fotografie, obrazy">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js" type="text/javascript"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+<link href="fontello/css/fontello.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+			<div class="header">
+					<div class="prostokat">
+						<a href="#p_info">
+						<div class="animate__animated animate__backInLeft menu">
+						<p> O NAS </p>
+						</div>
+						</a>
+					</div>
+					<div class="prostokat_srodek">
+						<div class=" animate__animated animate__backInUp logo">
+						<p> <span style="margin-right:4%;">SAY</span>  <br> <span style="color:#FFCC00;">CHEESE</span> <i class="icon-camera-alt"></i> </p>
+						</div>
+					</div>
+					<div class="prostokat">
+						<a href="#footer">
+						<div class="animate__animated animate__backInRight kontakt">
+						<p> KONTAKT </p>
+						</a>
+						</div>
+					</div>
+			</div>
+			<div class="animate__animated animate__pulse strzalka">
+			 <a href="#tresc" class="s_dol"><i class="icon-angle-circled-down"></i></a>
+			</div>
+			<div class="tresc" id="tresc">
+			<div class="p_tresc">
+			<h1> Witaj! <i class="icon-emo-laugh"></i> </h1>
+			<p> Lubisz robić zdjęcia? A może interesuje Cię najnowszy sprzęt fotograficzny? Czy może też chcesz po prostu dowiedzieć się czegoś nowego? </p>
+			<p>Nawet jeśli trafiłeś do nas przypadkiem to jeszcze nie uciekaj <i class="icon-emo-coffee"></i></p>
+			<p> Co tydzień wybieramy kilka najlepszych zdjęć nadesłanych przez naszych czytelników, a ten przycisk na dole wylosuje Ci jedno z nich ! <i class="icon-down-hand" style="font-size:50px;"></i> </p>
+			</div>
+	
+			<div class="przycisk_galeria">
+				<button class="przycisk"> <i class="icon-picture" onclick="getRandomImage()"></i></button>
+			</div>
+			<div class="zdjecie">
+	
+				<div id="result" > To tutaj pojawi się twoje zdjęcie :) <p> Pamiętaj, bez JavaScript nie będzie działało losowanie :( </p> </div>  
+			</div>
+				<div class="quiz">
+						<form method="post" onsubmit="event.preventDefault(); checkQuiz();" name="form">
+							<fieldset>
+							<legend align="center" style="font-size:50px;">Quiz wiedzy o fotografii</legend>
+								<p> Kto wynalazł pierwszy aparat? </p> 
+									<p> <input type="radio" name="wynalazca"  value="1"> Bracia Susse<span id="1a" style="color:green;"> </span></p>
+									<p> <input type="radio" name="wynalazca"  value="2"> H. Goodwin <span id="1b" style="color:red;"> </span> </p>
+									<p> <input type="radio" name="wynalazca"  value="3"> G. Eastman <span id="1c" style="color:red;"> </span> </p>
+									 <p> Czy mróz może zepsuć zdjęcie natychmiastowe (Instax, Polaroid)? </p> 
+									<p> <input type="radio" name="PF"  value="1"> Tak<span id="2a" style="color:green;"> </span> </p>
+									<p> <input type="radio" name="PF"  value="2"> Nie <span id="2b" style="color:red;"> </span> </p>
+									<p> Wartość ISO określa: </p> 
+									<p> <input type="radio" name="ISO"  value="1"> czułość obiektywu <span id="3a" style="color:red;"> </span> </p>
+									<p> <input type="radio" name="ISO"  value="2"> podatność na szumy<span id="3b" style="color:green;"> </span> </p>
+									<p> <input type="radio" name="ISO" value="3"> szerokość przesłony <span id="3c" style="color:red;"> </span> </p>
+									<p><span id="wynik"></span></p>
+									<button type="submit"> Pokaż poprawne odpowiedzi! </button>
+							</fieldset>
+						</form>
+				</div>
+			</div>
+			<div class="info">
+			<div class="p_info" id="p_info">
+			<h1> O nas </h1> 
+			<p> W internecie jako strona działamy od niedawna, dlatego też nie możemy o sobie powiedzieć zbyt wiele, ale za to zapraszamy cię na nasze social media, gdzie znajdziesz już ciut więcej informacji. </p>
+
+			</div>
+			<div class="socialmedia">
+						<a href="https://www.facebook.com/">
+						<div class="fb">
+						<i class="icon-facebook-circled"></i>
+						</div>
+						</a>
+						<a href="https://www.youtube.com/">
+						<div class="yt">
+						<i class="icon-youtube-play"></i>
+						</div>
+						</a>
+						<a href="https://twitter.com/?lang=pl">
+						<div class="tw">
+						<i class="icon-twitter"></i>
+						</div>
+						</a>
+						<a href="https://www.instagram.com/">
+						<div class="ig">
+						<i class="icon-instagram"></i>
+						</div>
+						</a>
+				</div>
+			</div>
+			<div class="footer" id="footer"> Ryndak Patrycja &copy; 2021  <i class="icon-mail"></i> ryndak.patrycja@wp.pl  <p>Cheese icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p></div>
+	</div>
+	
+</body> 
+
+</html>

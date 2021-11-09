@@ -1,0 +1,248 @@
+body
+{
+	background-image: url(images/polaroid.jpg);
+	background-position:center;
+	background-attachment:fixed;
+	background-size: cover;
+	color:#ffffff;
+	font-family: 'Luckiest Guy', cursive;
+	margin-top: 0 !important;
+}
+.container
+{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0 !important;
+}
+.header
+{
+	width:100%;
+	height:40%;
+	color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:bold;
+	margin-top: 0 !important;
+	
+}
+.menu
+{
+	width:100%;
+	float:left;
+	font-size:30px;
+	text-align:center;
+	color:#ffffff;
+	border-radius: 100px;
+	text-shadow:-10px 7px 6px rgba(93,74,40,0.79);
+	
+}
+.menu:hover
+{
+	background-color: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.4);
+	color:#ffffff;
+}
+.logo
+{	
+	width:100%;
+	font-size:70px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	float:left;
+	border-radius: 150px;
+	text-shadow:-10px 7px 6px rgba(93,74,40,0.79);
+	
+}
+
+.kontakt
+{
+	width:100%;
+	float:left;
+	font-size:30px;
+	text-align:center;
+	color:#ffffff;
+	border-radius: 100px;
+	text-shadow: -10px 7px 6px rgba(22,17,9,0.79);
+	
+}
+.kontakt:hover
+{
+	background-color: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.4);
+	color:#ffffff;
+}
+.prostokat
+{
+	width:25%;
+	float:left;
+	
+}
+.prostokat_srodek
+{
+	width:50%;
+	float:left;
+}
+.strzalka
+{
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+	height:30%;
+	padding:3%;
+	margin-top:10%;
+	margin-bottom:2%;
+	font-size:200px;
+	text-align:center;
+	animation-duration:10s;
+}
+a
+{
+	text-decoration:none;
+	color:#ffffff;
+}
+.tresc
+{
+	width:74%;
+	height:auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: -12px 25px 67px 4px rgba(181,169,123,1);
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:4%;
+	padding:5%;
+}
+.p_tresc
+{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	color:rgba(15, 13, 13, 0.6);
+	font-size:35px;
+	text-align:justify;
+}
+h1
+{
+	text-align:center;
+}
+.przycisk_galeria
+{
+	width:20%;
+	height:15%;
+	margin-left:auto;
+	margin-right:auto;
+	color:rgba(15, 13, 13, 0.6);
+	
+}
+.przycisk
+{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	font-size:80px;
+	text-align:center;
+	color:rgba(15, 13, 13, 0.6);
+	
+}
+.info
+{
+	width:80%;
+	height:auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: -12px 25px 67px 4px rgba(181,169,123,1);
+	margin-left:auto;
+	margin-right:auto;
+	padding:2%;
+	padding-bottom:6%;
+}.p_info
+{
+	width:80%;
+	height:auto;
+	padding:2%;
+	margin-left:auto;
+	margin-right:auto;
+	color:rgba(15, 13, 13, 0.6);
+	font-size:35px;
+	text-align:justify;
+}
+.footer
+{
+	font-size:25px;
+	width:70%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	text-shadow: -6px 4px 7px rgba(6,3,2,0.8);
+	
+}
+.socialmedia
+{
+	width:100%;
+	height:auto;
+	font-size:50px;
+	color:rgba(15, 13, 13, 0.6);
+}
+.socialmedia a 
+{
+	color:rgba(15, 13, 13, 0.6);
+}
+.socialmedia a:hover
+{
+	color: rgba(94, 71, 44, 0.9);
+}
+.fb
+{
+	width:24%;
+	text-align:center;
+	float:left;
+}
+.yt
+{
+	width:24%;
+	text-align:center;
+	float:left;
+}
+.tw
+{
+	width:24%;
+	text-align:center;
+	float:left;
+}
+.ig
+{
+	width:24%;
+	text-align:center;
+	float:left;
+}
+.zdjecie
+{
+	width:52%;
+	height:52%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15%;
+	margin-bottom:10%;
+	text-align:center;
+	color:rgba(15, 13, 13, 0.6);
+}
+#result
+{
+	 color:rgba(15, 13, 13, 0.6);
+	 margin-bottom:5%;
+	 width:100%;
+	 height:auto;
+	 max-height:100%;
+}
+.quiz
+{
+	color:rgba(15, 13, 13, 0.6);
+	font-size:25px;
+}
+.animate__animated animate__pulse strzalka
+{
+	margin:0 !important;
+}
