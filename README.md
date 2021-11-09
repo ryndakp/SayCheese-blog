@@ -11,4 +11,8 @@
 	- HTML 5 
 	- Css 3 
 	- JavaScript 
-
+## Uruchamianie aplikacji
+Do uruchomienia aplikacji należy: 
+- pobrać plik SayChesee-blog.zip
+- wypakować archiwum
+- otworzyć w przeglądarce plik o nazwie index.html
